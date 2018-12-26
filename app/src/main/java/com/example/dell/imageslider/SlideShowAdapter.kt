@@ -14,7 +14,7 @@ import java.util.logging.Handler
 class SlideShowAdapter constructor(context: Context): PagerAdapter(){
     private var context: Context = context
     private lateinit var layoutInflater: LayoutInflater
-    private val images: IntArray = intArrayOf(
+    val images: IntArray = intArrayOf(
         R.drawable.food_one,
         R.drawable.food_three,
         R.drawable.food_four,
